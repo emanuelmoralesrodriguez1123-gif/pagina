@@ -1,0 +1,58 @@
+/* ----- Estilos generales ----- */
+
+body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* ----- Encabezado ----- */
+
+header {
+    background: #4a90e2;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* ----- Contenido principal ----- */
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* ----- Secciones ----- */
+
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+section h2 {
+    margin-bottom: 10px;
+}
+
+/* ----- Botón de volver ----- */
+
+a.volver {
+    display: inline-block;
+    margin-bottom: 25px;
+    background: #4a90e2;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a.volver:hover {
+    background: #357abd;
+}
